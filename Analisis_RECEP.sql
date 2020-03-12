@@ -8,8 +8,8 @@ GO
 -- IMPORTAR DATA DE RECECPCION
 SELECT * INTO #recep_tmp
 FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',
-		'Excel 12.0;Database=D:\Documentos Personales\Documents\Planeamiento\Scripts_Planeamiento\Reporte_AOC_RECEP\Analisis_Recepcion\Doc_Origen\recepc__01082019_09032020.xlsx;HDR=YES', 
-		'SELECT * FROM [recepc__01082019_09032020$]')
+		'Excel 12.0;Database=D:\Documentos Personales\Documents\Planeamiento\Scripts_Planeamiento\Reporte_AOC_RECEP\Analisis_Recepcion\Doc_Origen\recepc__01082019_11032020.xlsx;HDR=YES', 
+		'SELECT * FROM [recepc__01082019_11032020$]')
 GO
 
 -- Primeras condiciones para crear el analisis de recepcion

@@ -9,7 +9,7 @@ GO
 
 SELECT * INTO #Tabla_AOC
 FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',
-		'Excel 12.0;Database=D:\Documentos Personales\Documents\Planeamiento\Scripts_Planeamiento\Reporte_AOC_RECEP\Analisis_OrdenCompra\Doc_Origen\AOC_DOC\Anlisis de orden de compra_ 01082019_09032020.xlsx;HDR=YES', 
+		'Excel 12.0;Database=D:\Documentos Personales\Documents\Planeamiento\Scripts_Planeamiento\Reporte_AOC_RECEP\Analisis_OrdenCompra\Doc_Origen\AOC_DOC\Anlisis de orden de compra_ 01082019_11032020.xlsx;HDR=YES', 
 		'SELECT * FROM [Anlisis de orden de compra_ 010$]')
 
 SELECT * INTO #AOC_ADD
